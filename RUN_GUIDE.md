@@ -37,7 +37,7 @@ Full-precision response arrays are supplied as reference results. Auxiliary gene
 
 The source files `run_pisa_validation.m`, `run_pisa_crosschecks.m`, `run_cowden_profile_verification.m`, `compare_openpile_curves.m`, `verify_design_baselines.m`, `verify_field_numerics.m` and `run_targeted_mesh_review.m` provide focused checks. Add their containing directories to the MATLAB path and inspect their function signatures before use. They write fresh output in their stated local result directories.
 
-The strict nonlinear residual criterion is 10^-9. The recorded Clay D1 mesh exercise failed that criterion at both resolutions. Its 3×10^-9 retry is a separate diagnostic. Graphical reading envelopes, numerical mesh differences and physical comparison errors have distinct interpretations.
+The strict nonlinear residual criterion is 10^-9. The 80-element Clay D1 updated and frozen branches failed that criterion. The 40-element calculations retained the original criterion. Its 3×10^-9 retry is a separate diagnostic. Graphical reading envelopes, numerical mesh differences and physical comparison errors have distinct interpretations.
 
 The main PISA derivatives assume fixed wall thickness, embedded length, load height and external load. Soil-law geometry is changed separately from actual beam geometry. The finite diameter comparison uses full nonlinear re-equilibration. Local adjoint sensitivity is evaluated at the nominal state. Calibration-domain and displacement-domain flags remain part of the result tables.
 
