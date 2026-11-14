@@ -1,0 +1,4 @@
+﻿profile,fit_depth_start_m,fit_depth_end_m,gradient_kPa_per_m,intercept_kPa,max_path_fit_residual_kPa,status
+su,20.0,49.9,3.1647146721533685,91.35335873682702,0.6588754640489753,Derived from digitized offshore black path; not an exact published gradient; no extrapolated samples supplied
+su,30.0,49.9,3.1427140493417256,92.29087976554972,0.8652026257559555,Derived from digitized offshore black path; not an exact published gradient; no extrapolated samples supplied
+su,40.0,49.9,3.1893587479933707,90.13834742689085,0.2917436496904031,Derived from digitized offshore black path; not an exact published gradient; no extrapolated samples supplied

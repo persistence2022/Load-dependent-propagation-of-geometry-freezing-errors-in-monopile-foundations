@@ -1,0 +1,24 @@
+{
+  "mode": "formal",
+  "matlab": "24.2.0.2712019 (R2024b)",
+  "release": "2024b",
+  "cases": [
+    "Clay_D1",
+    "Clay_D2",
+    "Sand_D2t_Dr55",
+    "Sand_D2t_Dr85"
+  ],
+  "models": [
+    "Full",
+    "p_only",
+    "No_m",
+    "No_HB",
+    "No_MB",
+    "EB_limit",
+    "Exact_annulus"
+  ],
+  "case_count": 4,
+  "curve_count": 28,
+  "claim": "External published 3D numerical design cases; related PISA model family; not independent physical observations or blind test",
+  "run_relative": "reference_results/design"
+}

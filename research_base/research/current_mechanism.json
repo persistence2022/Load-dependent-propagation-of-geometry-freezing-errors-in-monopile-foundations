@@ -1,0 +1,8 @@
+{
+  "matlab": "24.2.0.2712019 (R2024b)",
+  "counterfactual_rows": 120,
+  "gradient_checks": 24,
+  "failures": 0,
+  "interpretation": "Deterministic model counterfactuals; no experimental causality, probabilistic confidence or PISA recalibration",
+  "run_relative": "reference_results/mechanisms"
+}

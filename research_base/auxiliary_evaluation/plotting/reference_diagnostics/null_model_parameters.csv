@@ -1,0 +1,4 @@
+model,lengthscale,ridge,rows,groups
+low,2.4,0.001,80,80
+difference,2.4,0.001,80,80
+reference,2.4,0.001,80,80

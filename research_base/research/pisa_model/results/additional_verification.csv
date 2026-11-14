@@ -1,0 +1,13 @@
+test,value,threshold,passed,required_for_default_mesh
+Sand tangents in four smooth sign quadrants,9.01045675219424e-12,2e-05,1,1
+Sand |p| cusp right derivative,9.8837229067783e-08,2e-05,1,1
+Sand |p| cusp left derivative,9.8837229067783e-08,2e-05,1,1
+Beam rigid translation and rotation nullspace,6.33852818340829e-18,1e-12,1,1
+Beam internal virtual work and quadratic energy,2.22044604925031e-16,1e-12,1,1
+Stable curvature versus published shape matrix,2.1796115801817e-16,1e-12,1,1
+Custom linear hook reproduces direct linear solve,1.07488084530009e-11,1e-09,1,1
+Counterfactual soil diameter preserves beam matrix,0,0,1,1
+Independent collocation load error across all meshes,0.00138760881734901,0.001,0,0
+Independent collocation rotation error across all meshes,0.000712132802578536,0.001,1,1
+Independent collocation load error at default-or-finer mesh,0.000344822824010826,0.001,1,1
+Independent collocation rotation at default-or-finer mesh,0.000177289981284634,0.001,1,1

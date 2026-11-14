@@ -1,0 +1,31 @@
+{
+  "matlab": "24.2.0.2712019 (R2024b)",
+  "scope": "Post-evaluation diagnostic; no model or prediction changes",
+  "null_control": {
+    "same_training_coordinates": true,
+    "same_kernel_and_ridge": true,
+    "max_operator_additivity_absolute_error": 1.1102230246251565e-15,
+    "max_saved_source_minus_direct_absolute_error": 4.2693626411960395e-13,
+    "max_reference_operator_implementation_error": 3.0904168113465857e-12,
+    "max_low_operator_implementation_error": 3.736788656283352e-12,
+    "max_interval_upper_difference": 0.031481202936258335,
+    "interpretation": "Same linear smoother gives exactly additive means; output scaling cancels. Joint calibrated intervals need not be equal."
+  },
+  "ledger_runs": 120,
+  "ledger_queries": 7194,
+  "all_cost_checks_passed": true,
+  "development_median_cost_reproduced": true,
+  "development_low_seconds": 0.0035441500000000003,
+  "development_reference_seconds": 0.02267415,
+  "H2_primary_false_approval_difference": 0,
+  "H2_primary_interval": [
+    0,
+    0
+  ],
+  "H2_superiority_supported": false,
+  "budget_interpretation": "Same physical-query budget, not same total cost; posthoc total is development-median solver estimate plus actual fits, not wall-clock re-execution",
+  "final_audit_interpretation": "Uniform logical one-reference audit fee, not a fresh solver run; cache-aware alternative reported",
+  "policy_offline_table_original_solver_seconds": 10.9754274,
+  "lookup_time_is_not_solver_time": true,
+  "formal_inputs_unchanged": true
+}

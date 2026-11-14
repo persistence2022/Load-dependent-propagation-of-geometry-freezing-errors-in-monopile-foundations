@@ -1,0 +1,16 @@
+function cfg=pisa_config(model)
+
+if nargin==0,model='dunkirk';end
+model=lower(string(model));assert(any(model==["cowden","dunkirk"]));
+cfg=struct('model',model,'E_Pa',200e9,'nu',.3,'shear_factor',.5, ...
+ 'section','thin_wall','soil_diameter_m',[],'n_elements',40,'gauss_order',4,'relative_tolerance',1e-9, ...
+ 'max_iterations',60,'line_search_min',2^-16,'load_scale_N',1e6, ...
+ 'components',[true true true true],'allow_extrapolation',false, ...
+ 'soil',[],'soil_function',[],'reaction_function',[],'reaction_label','PISA', ...
+ 'source_label','User must identify the soil source');
+if model=="dunkirk"
+ cfg.soil_function=@(z)pisa_dunkirk_soil(z,.75);
+ cfg.source_label='Burd et al. 2020 representative offshore GDSM, Dr=0.75, Eq.7 and Tables 2-3';
+end
+
+end

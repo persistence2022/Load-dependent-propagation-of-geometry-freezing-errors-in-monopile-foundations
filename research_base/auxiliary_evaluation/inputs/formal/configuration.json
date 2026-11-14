@@ -1,0 +1,122 @@
+{
+  "bounds": [
+    [
+      8,
+      11
+    ],
+    [
+      0.06,
+      0.14
+    ],
+    [
+      35,
+      60
+    ]
+  ],
+  "names": [
+    "D_m",
+    "t_m",
+    "embedded_length_m"
+  ],
+  "seeds": {
+    "smoke": 41000,
+    "development": 41021,
+    "calibration": 41022,
+    "test": 41024,
+    "policy": 53001,
+    "bootstrap": 64001
+  },
+  "sizes": {
+    "smoke": 6,
+    "development": 80,
+    "calibration": 60,
+    "test": 120,
+    "policy": 128
+  },
+  "loads_N_Nm": [
+    [
+      5000000.0,
+      -500000000.0
+    ],
+    [
+      10000000.0,
+      -300000000.0
+    ]
+  ],
+  "model_modes": [
+    "frozen_linear",
+    "updated_linear",
+    "frozen",
+    "updated"
+  ],
+  "rotation_limit_rad": 0.004363323129985824,
+  "stress_limit_Pa": 345000000.0,
+  "displacement_length_ratio": 0.002,
+  "limit_basis": "Legacy project rotation/stress thresholds; displacement=L_embedded/500 is a declared numerical-study convention, not certified site design approval.",
+  "max_element_m": 1,
+  "density_kg_m3": 7850,
+  "mechanism_grid": {
+    "D_m": [
+      8,
+      8.25,
+      8.5,
+      8.75,
+      9,
+      9.25,
+      9.5,
+      9.75,
+      10,
+      10.25,
+      10.5,
+      10.75,
+      11
+    ],
+    "t_m": [
+      0.06,
+      0.06666666666666667,
+      0.07333333333333333,
+      0.08,
+      0.08666666666666667,
+      0.09333333333333334,
+      0.1,
+      0.10666666666666666,
+      0.11333333333333334,
+      0.12000000000000002,
+      0.12666666666666668,
+      0.13333333333333336,
+      0.14
+    ],
+    "L_m": [
+      35,
+      47.5,
+      60
+    ]
+  },
+  "policy": {
+    "repetitions": 8,
+    "initial_low": 12,
+    "initial_reference": 4,
+    "budget_reference_equivalents": [
+      8,
+      16,
+      24
+    ],
+    "methods": [
+      "Frozen",
+      "LowOnly",
+      "ReferenceOnly",
+      "Periodic",
+      "DecisionAdaptive"
+    ],
+    "fixed_kernel_length": 0.6,
+    "ridge": 1e-06,
+    "scale_multiplier": 1.64
+  },
+  "primary_metrics": [
+    "final_reference_feasibility",
+    "conditional_feasible_mass",
+    "false_approvals_at_matched_acceptance",
+    "actual_compute_seconds"
+  ],
+  "scope": "New controlled static numerical data, project-manuscript soil inputs, no claim of field validation or annual failure probability."
+}

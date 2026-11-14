@@ -1,0 +1,27 @@
+{
+  "repetitions": 8,
+  "initial_low": 12,
+  "initial_reference": 4,
+  "budget_reference_equivalents": [
+    8,
+    16,
+    24
+  ],
+  "methods": [
+    "Frozen",
+    "LowOnly",
+    "ReferenceOnly",
+    "Periodic",
+    "DecisionAdaptive"
+  ],
+  "fixed_kernel_length": 0.6,
+  "ridge": 1E-6,
+  "scale_multiplier": 1.64,
+  "relative_cost": [
+    0.15630795421217555,
+    1
+  ],
+  "reference_solve_seconds": 0.02267415,
+  "response_count": 3,
+  "seed": 53001
+}

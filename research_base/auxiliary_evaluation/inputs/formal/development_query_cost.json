@@ -1,0 +1,11 @@
+{
+  "cost_seconds": [
+    0.0035441500000000003,
+    0.02267415
+  ],
+  "relative_cost": [
+    0.15630795421217555,
+    1
+  ],
+  "source": "Development geometry paired-load calls only"
+}

@@ -1,0 +1,25 @@
+﻿site,parameter,value,unit,depth_or_scope,source_id,source_location,evidence_class,missing_or_assumption
+Dunkirk,gamma_bulk_above_water,17.1,kN/m3,z<5.4m,PISA004,p987 PDF2; PISA001 site characterization,site estimate,
+Dunkirk,gamma_bulk_below_water,19.9,kN/m3,z>=5.4m,PISA004,p987 PDF2,site estimate,
+Dunkirk,groundwater_depth,5.4,m,at test campaign,PISA004,p986-987 PDF1-2,observed approximate depth,surface unsaturation/suction; hydrostatic below table only
+Dunkirk,relative_density,100,percent,0-3m fill,PISA004,p986 PDF1,interpreted site state,
+Dunkirk,relative_density,75,percent,below3m natural sand,PISA004,p986 PDF1,interpreted site state,
+Dunkirk,void_ratio,0.57,1,0-3m,PISA004,p987 PDF2,author model input,
+Dunkirk,void_ratio,0.628,1,below3m,PISA004,p987 PDF2,author model input,
+Dunkirk,K0,0.4,1,soil column,PISA004,p987 PDF2,author assumption adopted from Chow1997,
+Dunkirk,phi_cs_compression,32,degree,triaxial critical state,PISA004,p987 PDF2,laboratory interpretation,not automatically the peak friction angle required by a selected API formulation
+Dunkirk,phi_cs_extension,33,degree,triaxial critical state,PISA004,p987 PDF2,laboratory interpretation,
+Dunkirk,G0_profile,dunkirk_interpreted_G0_profile.csv,MPa,0-20m displayed range,PISA004,Fig1 PDF2 p987,digitized author-interpreted profile,
+Dunkirk,G0_formula,875*p_ref/(0.3+0.7*e^2)*sqrt(p_mean_effective/p_ref),same stress unit as p_ref,p_ref=101.3kPa,PISA004,Eq1 PDF2 p987,author correlation,p_mean_effective must include adopted pore pressure; do not silently assume saturated ground from surface
+Dunkirk,API_subgrade_modulus_k,,N/m3,required by API sand p-y,PISA001/PISA004,reviewed characterization/method sections,not located as a site-specific prescribed API k,Must derive from an independently selected published correlation/range and declare assumption; not fit pile curves
+Dunkirk,effective_unit_weight_if_hydrostatic,10.09,kN/m3,below5.4m; gamma_w=9.81kN/m3,derived from PISA004,19.9-9.81,derived conditional calculation,not a direct field measurement; above-water suction is a separate effect
+Cowden,gamma_bulk,21.19,kN/m3,glacial till,PISA001,Ground text adjacent Table1; bulk density2.16Mg/m3,site characterization,
+Cowden,groundwater_depth,1,m,test site,PISA001,"Cowden characterization, Fig4",observed approximate depth,"deep pore pressures under-drained, significantly lower than hydrostatic"
+Cowden,su_profile,cowden_interpreted_soil_profiles.csv variable su_kPa,kPa,published interpreted profile,PISA003,Fig1a PDF3 p972,digitized author-interpreted profile,not individual triaxial observations; no artificial surface endpoint
+Cowden,G0_profile,cowden_interpreted_soil_profiles.csv variable G0_MPa,MPa,published interpreted profile,PISA003,Fig1b PDF3 p972,digitized author-interpreted profile,small-strain stiffness; not automatically Matlock epsilon50
+Cowden,epsilon50,,1,required by selected Matlock p-y,PISA001/PISA003,reviewed soil characterization and test paper,not located as a prescribed Matlock input,"A stiffness/strength conversion is a model assumption, not measured epsilon50; do not calibrate on pile response"
+Cowden,effective_unit_weight_if_hydrostatic,11.38,kN/m3,conditional21.19-9.81,derived from PISA001,conditional calculation only,derived scenario,not actual effective stress gradient because observed pore pressures are under-drained
+Cowden,steel_E,210,GPa,elastic tubular pile,PISA002,p965 PDF6; PISA003p982,author-assumed steel elastic property,
+Cowden,steel_G,80.7,GPa,elastic tubular pile,PISA002,p965 PDF6; PISA003p982,author-assumed steel elastic property,
+Dunkirk,steel_E,210,GPa,elastic tubular pile,PISA002,p965 PDF6; PISA003p982,author-assumed steel elastic property,
+Dunkirk,steel_G,80.7,GPa,elastic tubular pile,PISA002,p965 PDF6; PISA003p982,author-assumed steel elastic property,

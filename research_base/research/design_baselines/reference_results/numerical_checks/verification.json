@@ -1,0 +1,10 @@
+{
+  "matlab": "24.2.0.2712019 (R2024b)",
+  "release": "2024b",
+  "diagnostic_tolerance": 1E-8,
+  "formal_tolerance": 1E-9,
+  "max40to80": 7.573504075408799E-5,
+  "max1e6to1e7": 6.2585165012674082E-6,
+  "scope": "Representative middle parameter per each4case; not all12curve mesh repeats; formal results unmodified",
+  "tolerance_note": "Initial refinement attempt stagnated at3.13e-9 against3e-9. Uniform1e-8 adopted for diagnostic runs only; no physical parameter change."
+}

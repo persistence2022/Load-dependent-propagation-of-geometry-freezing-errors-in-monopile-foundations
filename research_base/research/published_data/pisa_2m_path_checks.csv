@@ -1,0 +1,9 @@
+﻿site,pile_id,panel,n_paths,n_vertices,max_between_path_gap_pt,colour_identity
+Dunkirk,DL1,a,15,8610,0.628472751994893,black
+Dunkirk,DL2,a,13,8415,0.619632955869844,grey
+Dunkirk,DL1,b,29,18621,0.49414572749340363,black
+Dunkirk,DL2,b,28,18482,0.18564751546948255,grey
+Cowden,CL1,a,5,2992,0.08683317338435416,black
+Cowden,CL2,a,5,2991,0.06511528238439199,grey
+Cowden,CL1,b,19,12029,0.4264000469042785,black
+Cowden,CL2,b,19,12029,0.34636974463711884,grey

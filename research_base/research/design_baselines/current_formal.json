@@ -1,0 +1,11 @@
+{
+  "mode": "formal",
+  "matlab": "24.2.0.2712019 (R2024b)",
+  "release": "2024b",
+  "platform": "PCWIN64",
+  "curve_count": 12,
+  "metric_count": 24,
+  "failure_count": 0,
+  "claim": "Unfitted API/Matlock parameter scenarios against external published3D numerical design curves; no physical-truth claim",
+  "run_relative": "design_baselines/reference_results"
+}

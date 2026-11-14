@@ -1,0 +1,13 @@
+{
+  "mode": "formal",
+  "matlab": "24.2.0.2712019 (R2024b)",
+  "release": "2024b",
+  "platform": "PCWIN64",
+  "case_count": 34,
+  "failure_count": 0,
+  "physical_piles": 4,
+  "paired_site_units": 2,
+  "status": "Executed unfitted comparison; published PISA-related field evidence, not blind independent PISA validation",
+  "metrics": "Table3 H0.1D and secant initial stiffness atD/1000; no loading-history fit",
+  "run_relative": "field_validation/reference_results"
+}

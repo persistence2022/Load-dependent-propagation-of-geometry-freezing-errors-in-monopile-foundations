@@ -1,0 +1,13 @@
+case_id,model,D_m,t_m,L_m,h_m,E_Pa,nu,section,shear_factor,elements,phi_deg,epsilon50,J,regularization
+Clay_D1,Matlock_e004_J050,7.5,0.068,22.5,37.5,200000000000,0.3,thin_wall,0.5,40,NaN,0.004,0.5,1e-06
+Clay_D1,Matlock_e005_J050,7.5,0.068,22.5,37.5,200000000000,0.3,thin_wall,0.5,40,NaN,0.005,0.5,1e-06
+Clay_D1,Matlock_e007_J050,7.5,0.068,22.5,37.5,200000000000,0.3,thin_wall,0.5,40,NaN,0.007,0.5,1e-06
+Clay_D2,Matlock_e004_J050,8.75,0.091,35,87.5,200000000000,0.3,thin_wall,0.5,40,NaN,0.004,0.5,1e-06
+Clay_D2,Matlock_e005_J050,8.75,0.091,35,87.5,200000000000,0.3,thin_wall,0.5,40,NaN,0.005,0.5,1e-06
+Clay_D2,Matlock_e007_J050,8.75,0.091,35,87.5,200000000000,0.3,thin_wall,0.5,40,NaN,0.007,0.5,1e-06
+Sand_D2t_Dr55,API_phi32,8.75,0.15,35,87.5,200000000000,0.3,thin_wall,0.5,40,32,NaN,0.5,1e-06
+Sand_D2t_Dr55,API_phi36,8.75,0.15,35,87.5,200000000000,0.3,thin_wall,0.5,40,36,NaN,0.5,1e-06
+Sand_D2t_Dr55,API_phi40,8.75,0.15,35,87.5,200000000000,0.3,thin_wall,0.5,40,40,NaN,0.5,1e-06
+Sand_D2t_Dr85,API_phi32,8.75,0.15,35,87.5,200000000000,0.3,thin_wall,0.5,40,32,NaN,0.5,1e-06
+Sand_D2t_Dr85,API_phi36,8.75,0.15,35,87.5,200000000000,0.3,thin_wall,0.5,40,36,NaN,0.5,1e-06
+Sand_D2t_Dr85,API_phi40,8.75,0.15,35,87.5,200000000000,0.3,thin_wall,0.5,40,40,NaN,0.5,1e-06

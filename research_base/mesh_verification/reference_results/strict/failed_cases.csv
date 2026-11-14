@@ -1,0 +1,3 @@
+case_id,treatment,identifier,message
+Clay_D1,Updated,,"Newton line search failed at path index 35, residual 1.154e-09."
+Clay_D1,Frozen,,"Newton line search failed at path index 34, residual 1.096e-09."

@@ -1,0 +1,12 @@
+{
+  "matlab": "24.2.0.2712019 (R2024b)",
+  "release": "2024b",
+  "numerical_check_only": true,
+  "max_abs80to120_K": 4.260255984911421e-05,
+  "max_abs80to120_H": 0.00031919943909852755,
+  "Matlock_1e6_vs1e7_K": 2.159531567791362e-06,
+  "Matlock_1e6_vs1e7_H": 2.3425705819590803e-13,
+  "diagnostic_tolerance": 3e-09,
+  "formal_tolerance": 1e-09,
+  "tolerance_note": "Initial refinement attempt stopped at1.066e-9 against1e-9; all diagnostic runs use3e-9 to avoid numerical stagnation. Formal outputs unchanged."
+}

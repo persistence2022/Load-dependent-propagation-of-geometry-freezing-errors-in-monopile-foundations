@@ -1,0 +1,18 @@
+site,scenario_id,kind,G0_scale,Su_scale,phi_deg,epsilon50,J,clay_regularization,evidence
+Dunkirk,PISA_full,PISA,1,1,NaN,NaN,NaN,1e-06,Published interpreted soil; explicit PISA calibration-domain extrapolation
+Dunkirk,PISA_p_only,PISA,1,1,NaN,NaN,NaN,1e-06,Published interpreted soil; explicit PISA calibration-domain extrapolation
+Dunkirk,PISA_G0_080,PISA,0.8,1,NaN,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Dunkirk,PISA_G0_120,PISA,1.2,1,NaN,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Dunkirk,API_phi32,API,1,1,32,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Dunkirk,API_phi36,API,1,1,36,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Dunkirk,API_phi40,API,1,1,40,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,PISA_full,PISA,1,1,NaN,NaN,NaN,1e-06,Published interpreted soil; explicit PISA calibration-domain extrapolation
+Cowden,PISA_p_only,PISA,1,1,NaN,NaN,NaN,1e-06,Published interpreted soil; explicit PISA calibration-domain extrapolation
+Cowden,PISA_G0_080,PISA,0.8,1,NaN,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,PISA_G0_120,PISA,1.2,1,NaN,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,PISA_Su_080,PISA,1,0.8,NaN,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,PISA_Su_120,PISA,1,1.2,NaN,NaN,NaN,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,Matlock_e004_J050,Matlock,1,1,NaN,0.004,0.5,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,Matlock_e005_J050,Matlock,1,1,NaN,0.005,0.5,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,Matlock_e007_J050,Matlock,1,1,NaN,0.007,0.5,1e-06,Predeclared parameter scenario; no response fitting
+Cowden,Matlock_e005_J025,Matlock,1,1,NaN,0.005,0.25,1e-06,Predeclared parameter scenario; no response fitting

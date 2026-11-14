@@ -1,0 +1,9 @@
+﻿case_id,regime,scenario_count,endpoint_ratio_min,endpoint_ratio_max,NMAE_min,NMAE_max,scope
+Clay_D1,sd,3,1.18934375110006,1.32672386285974,0.212572485858802,0.291112465936618,"Range across all predeclared assumptions, not optimized parameter selection"
+Clay_D1,ult,3,0.56667323818758,0.676837496721782,0.350444103643492,0.436156015400324,"Range across all predeclared assumptions, not optimized parameter selection"
+Clay_D2,sd,3,1.09506234045371,1.20232048621726,0.14033798810219,0.20454534426816,"Range across all predeclared assumptions, not optimized parameter selection"
+Clay_D2,ult,3,0.561996374880802,0.670226353156789,0.347746810785796,0.430128118739105,"Range across all predeclared assumptions, not optimized parameter selection"
+Sand_D2t_Dr55,sd,3,0.319398263649632,0.743336572146631,0.152381644403105,0.364356091547891,"Range across all predeclared assumptions, not optimized parameter selection"
+Sand_D2t_Dr55,ult,3,0.986371775507214,1.79868601696517,0.0685245108834035,0.749280537449014,"Range across all predeclared assumptions, not optimized parameter selection"
+Sand_D2t_Dr85,sd,3,0.292488430521611,0.680709233832846,0.182748927033784,0.376864175650403,"Range across all predeclared assumptions, not optimized parameter selection"
+Sand_D2t_Dr85,ult,3,0.599678419343597,1.09353614360513,0.0858464196606335,0.238413716737909,"Range across all predeclared assumptions, not optimized parameter selection"
